@@ -1,0 +1,411 @@
+html, body{
+    font-family:            Roboto, sans-serif;
+    width:                  100%;
+    height:                 100%;
+    margin:                 0;
+    padding:                0;
+    background:             #fafafc;
+}
+
+html {
+    scroll-behavior:        smooth;
+}
+
+.navContainer{
+    margin:                 0;
+    padding:                0;
+    display:                flex;
+    justify-content:        space-around;
+    flex-wrap:              wrap;
+    background:             white;
+}
+
+@media (min-width: 992px) {
+    .navContainer{
+        margin:                 0;
+        padding:                0 5rem;
+        display:                flex;
+        justify-content:        space-around !important;
+        flex-wrap:              wrap;
+        background:             transparent;
+        position:               absolute;
+    }
+}
+
+#LogoHeader{
+    padding:                5px 10px;
+    max-height:             52px;
+    max-width:              166px;
+    height:                 auto;
+    width:                  auto;
+    vertical-align:         middle;
+    cursor:                 pointer;
+}
+
+a.iconItemHeader{
+    font-family:            Roboto, sans-serif;
+    font-size:              18px;
+    font-weight:            300;
+    padding:                17px !important;
+    color:                  #C8102E;
+}
+
+a.iconItemHeader:hover{
+    font-family:            Roboto, sans-serif;
+    font-size:              18px;
+    font-weight:            300;
+    padding:                17px !important;
+    color:                  white;
+    background-color:       #C8102E;
+    text-decoration:        none;
+    opacity:                0.5;
+}
+
+h3{
+    font-family:            Roboto, sans-serif;
+    font-weight:            400;
+    color:                  lightgray !important;
+    margin-top:             30px;
+    margin-bottom:          15px;
+    font-size:              21px;
+}
+
+.footer{
+    font-family:            Roboto, sans-serif;
+    font-weight:            300;
+    font-size:              15px;
+    font-style:             italic;
+    line-height:            3rem;
+    color:                  white;
+    background-color:       #C8102E;
+}
+
+
+a.footer{
+    font-family:            Roboto, sans-serif;
+    font-weight:            300;
+    color:                  lightgrey;
+}
+
+div.colofon *{
+    font-family:            Roboto, sans-serif;
+    font-weight:            300;
+    font-size:              10pt;
+    color:                  white;
+    line-height:            12pt;
+    margin:                 10px 0;
+}
+
+.accent, .accent *{
+    color:                  white !important;
+    font-weight:            400 !important;
+}
+
+#ReasonsContainer{
+    font-family:            Roboto, sans-serif;
+    font-weight:            300;
+    font-size:              36px;
+    color:                  gray;
+    background-color:       #fafafc;
+    text-align:             center;
+    padding:                4rem 2rem;
+}
+
+#ReasonsBox{
+    border-radius:          4px;
+    border-bottom:          #FF6A13 solid 2px;
+    background-color:       #fff;
+    margin:                 3% 2%;
+    padding:                10px;
+    box-shadow:             0 2px 10px 0 rgba(0,0,0,.25);
+}
+
+#ReasonTitle{
+    font-family:            Roboto, sans-serif;
+    font-weight:            300;
+    font-size:              1.4rem;
+    color:                  #FF6A13;
+    text-align:             center;
+}
+
+#ReasonDescription{
+    font-family:            Roboto, sans-serif;
+    font-weight:            300;
+    font-size:              1.2rem;
+    color:                  gray;
+    text-align:             center;
+    padding:                15px;
+}
+
+.listItemFAQTop{
+    font-family:             Roboto, sans-serif;
+    color:                   black;
+    background-color:        #f7f7f7;
+    border-top-left-radius:  30px;
+    border-top-right-radius: 30px;
+    text-align:              left;
+    width:                   100%;
+    cursor:                  pointer;
+    padding:                 0 auto;
+}
+
+.listItemFAQ{
+    font-family:             Roboto, sans-serif;
+    background-color:        #f7f7f7;
+    text-align:              left;
+    width:                   100%;
+    cursor:                  pointer;
+    border-top:              1px solid lightgray;
+}
+
+.listItemFAQInnerText{
+    font-family:             Roboto, sans-serif;
+    font-size:               0.8rem;
+    color:                   black;
+    background-color:        #f7f7f7;
+    padding:                 0 2rem 1rem;
+    text-align:              left !important;
+    width:                   100%;
+}
+
+#ImgContainer1{
+    width:                  100%;
+    height:                 80vw;
+    max-height:             94vh;
+    background-size:        cover;
+    background-position:    center;
+}
+
+@media (min-width: 960px){
+    #ImgContainer1Text{
+        display:                flex;
+        width:                  100%;
+        position:               absolute;
+    }
+
+    #Text1Container{
+        margin:                 4rem;
+        box-shadow:             -1.5rem 1.5rem 4rem #000000;
+        background-color:       rgba(255,255,255, 0.90);
+    }
+}
+
+#TutorsBox{
+    border-radius:          4px;
+    background-color:       #fff;
+    margin:                 1.7rem 1rem;
+    padding:                0 1% 0 0;
+    box-shadow:             0 2px 10px 0 rgba(0,0,0,.25);
+}
+
+#TutorsName{
+    font-family:            Roboto, sans-serif;
+    font-weight:            400;
+    font-size:              1.1rem;
+    color:                  #FFB81C;
+    margin:                 15px 0;
+}
+
+#TutorsDescription{
+    font-family:            Roboto, sans-serif;
+    font-weight:            300;
+    font-size:              1.1rem;
+    color:                  gray;
+    padding:                10px;
+}
+
+@media (min-width: 1600px ) {
+    #DescriptionTextBox{
+        text-align: left;
+        font-size: 1.5rem !important;
+    }
+
+    #TutorsName{
+        font-family:            Roboto, sans-serif;
+        font-weight:            400;
+        font-size:              1.3rem;
+        color:                  #FFB81C;
+        margin:                 15px 0;
+    }
+
+    #TutorsDescription{
+        font-family:            Roboto, sans-serif;
+        font-weight:            300;
+        font-size:              1.2rem;
+        color:                  gray;
+        padding:                10px;
+    }
+
+    #Discover{
+        font-family:            Roboto, sans-serif;
+        font-weight:            300;
+        font-size:              2rem !important;
+        text-align:             center;
+        margin:                 1rem 0 0.5rem;
+        padding:                0;
+        width:                  100%;
+    }
+
+    #DescriptionHowItWorks{
+        font-family:            Roboto, sans-serif;
+        font-weight:            300;
+        font-size:              1.3rem !important;
+        color:                  black;
+        margin:                 10px 0;
+        line-height:            24px;
+        text-align:             justify;
+    }
+
+    #TextGroupLessons{
+        color: black;
+        font-weight: 300;
+        padding:  1rem 0.5rem;
+        width: 100%;
+        text-align: left;
+        font-size: 1.3rem !important;
+    }
+
+    #CarouselTextDescription{
+        font-size: 1.3rem !important;
+    }
+
+    #CarouselBox{
+        max-width:              950px !important;
+        min-height:             550px !important;
+        flex-grow:              1;
+        width:                  100%;
+        background-color:       ghostwhite;
+        margin:                 10px 0;
+        padding:                10px 20px;
+    }
+
+    #h6Bigger{
+        font-size:             1.8rem !important;
+    }
+
+    #WannaBeTutorDescription{
+        font-family:            Roboto, sans-serif;
+        font-weight:            300;
+        font-size:              1.3rem !important;
+        color:                  black;
+        margin:                 25px 0;
+        line-height:            26px;
+        text-align:             justify;
+    }
+}
+
+#Discover{
+    font-family:            Roboto, sans-serif;
+    font-weight:            300;
+    font-size:              1.3rem;
+    text-align:             center;
+    margin:                 1rem 0 0.5rem;
+    padding:                0;
+    width:                  100%;
+}
+
+#TextGroupLessons{
+    color: black;
+    font-weight: 300;
+    padding:  1rem 0.5rem;
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+}
+
+#CarouselBox{
+    max-width:              800px;
+    flex-grow:              1;
+    width:                  100%;
+    background-color:       ghostwhite;
+    margin:                 10px 0;
+    padding:                10px 20px;
+}
+
+#CarouselText{
+    display:                flex;
+    align-items:            center;
+    background-color:       ghostWhite;
+    text-align:             center;
+    margin:                 1rem;
+    padding:                20px;
+    border-top:             2px solid #FFB81C;
+}
+
+#CarouselTitle{
+    font-family:            Roboto, sans-serif;
+    font-weight:            300;
+    font-style:             italic;
+    text-transform:         uppercase;
+    color:                  #FFB81C;
+}
+
+#CarouselTextDescription{
+    font-size: 1rem;
+}
+
+.carouselContainer{
+    background-color:      ghostwhite;
+    margin:                0 0 10px 0;
+}
+
+.imgCarousel{
+    display:                block;
+    width:                  90%;
+    height:                 250px;
+    border-radius:          25px;
+}
+
+#ImgHowItWorks{
+    display:                block;
+    width:                  50%;
+}
+
+#TitleHowItWorks{
+    font-family:            Roboto, sans-serif;
+    font-weight:            400;
+    font-style:             italic;
+    text-transform:         uppercase;
+    color:                  #FF6A13;
+    margin:                 10px 0;
+}
+
+#DescriptionHowItWorks{
+    font-family:            Roboto, sans-serif;
+    font-weight:            300;
+    font-size:              1rem;
+    color:                  black;
+    margin:                 10px 0;
+    line-height:            24px;
+    text-align:             justify;
+}
+
+#quierosertutordedisol{
+    padding:                20px 0;
+    background-color:       ghostwhite;
+}
+
+#WannaBeTutorTitle{
+    font-family:            Roboto, sans-serif;
+    font-weight:            400;
+    font-style:             italic;
+    color:                  #FF6A13;
+    text-align:             center;
+    width:                  100%;
+}
+
+#WannaBeTutorDescription{
+    font-family:            Roboto, sans-serif;
+    font-weight:            300;
+    font-size:              1rem;
+    color:                  black;
+    margin:                 25px 0;
+    line-height:            26px;
+    text-align:             justify;
+}
+
+.basicFormat{
+    font-family:            Roboto, sans-serif;
+    text-align:             center;
+    padding:                2vw;
+}
